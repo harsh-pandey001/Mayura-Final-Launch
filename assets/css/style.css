@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   min-height: 100vh;
   padding: 8rem;
-  background-color: #12192c;
+  background-color: #000000;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -185,7 +185,7 @@ textarea.input {
 .contact-info {
   padding: 2.3rem 2.2rem;
   position: relative;
-  background-color: #12192c;
+  background-color: #000000;
   border: orange 2px solid;
 }
 
