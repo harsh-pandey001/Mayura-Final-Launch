@@ -658,7 +658,8 @@ if (arg === "value1") {
          </li>
      </ul>
  </div>`;
-} else if (arg === "value5") {
+} 
+else if (arg === "value5") {
   document.getElementsByClassName("container")[0] = `<div class="carousel">
  <input type="radio" name="slides" checked="checked" id="slide-51">
  <input type="radio" name="slides" id="slide-52">
