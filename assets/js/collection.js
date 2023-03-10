@@ -2,7 +2,7 @@ const arg = new URLSearchParams(window.location.search).get("arg");
 // Modify the content of the page based on the argument value
 if (arg === "value1") {
   document.getElementsByClassName(
-    "container"
+    "container69"
   )[0].innerHTML = `<div class="carousel">
     <input type="radio" name="slides" checked="checked" id="slide-1">
     <input type="radio" name="slides" id="slide-2">
@@ -166,7 +166,7 @@ if (arg === "value1") {
   //    val1.inn = "./assets/Pamplate/Living Room.jpg";
 } else if (arg === "value2") {
   document.getElementsByClassName(
-    "container"
+    "container69"
   )[0].innerHTML = `<div class="carousel">
 <input type="radio" name="slides" checked="checked" id="slide-11">
 <input type="radio" name="slides" id="slide-12">
@@ -295,7 +295,7 @@ if (arg === "value1") {
 </div>`;
 } else if (arg === "value3") {
   document.getElementsByClassName(
-    "container"
+    "container69"
   )[0].innerHTML = `<div class="carousel">
     <input type="radio" name="slides" checked="checked" id="slide-21">
     <input type="radio" name="slides" id="slide-22">
@@ -501,7 +501,7 @@ if (arg === "value1") {
 </div>`;
 } else if (arg === "value4") {
   document.getElementsByClassName(
-    "container"
+    "container69"
   )[0].innerHTML = `<div class="carousel">
      <input type="radio" name="slides" checked="checked" id="slide-41">
      <input type="radio" name="slides" id="slide-42">
@@ -660,7 +660,9 @@ if (arg === "value1") {
  </div>`;
 } 
 else if (arg === "value5") {
-  document.getElementsByClassName("container")[0] = `<div class="carousel">
+    document.getElementsByClassName(
+      "container69"
+    )[0].innerHTML = `<div class="carousel">
  <input type="radio" name="slides" checked="checked" id="slide-51">
  <input type="radio" name="slides" id="slide-52">
  <input type="radio" name="slides" id="slide-53">
