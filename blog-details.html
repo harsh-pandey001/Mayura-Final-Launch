@@ -12,6 +12,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="../pure-css-carousel-with-thumbnails/pure-css-carousel-with-thumbnails/dist/style.css" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,48 +35,47 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/Mayura Logo.png" alt="" />
+          <!-- <h1>Mayura<span>.</span></h1> -->
+        </a>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Mayura<span>.</span></h1>
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <!-- <li><a href="services.html">Collections</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Designs</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Collections</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="collections.html?arg=value1">16x16 Plain</a></li>
+                <li><a href="collections.html?arg=value2">16x16 Punch</a></li>
+                <li><a href="collections.html?arg=value3">24x24 Carving</a></li>
+                <li><a href="collections.html?arg=value4">24x48 Glossy</a></li>
+                <li><a href="collections.html?arg=value5">24x48 Carving</a></li>
+                <!-- <li><a href="#">High Glos FInish</a></li>
+              <li><a href="#">Dropdown 4</a></li> -->
+              </ul>
+            </li>
+            <li><a href="contact.html">Reach Us</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
   <main id="main">
 
@@ -83,10 +83,10 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Blog Details</h2>
+        <h2>Collection</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Blog Details</li>
+          <li>Designs</li>
         </ol>
 
       </div>
@@ -95,9 +95,14 @@
     <!-- ======= Blog Details Section ======= -->
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <section>
+          <div class="container">
+          </div>
+        </section>
+        
 
         <div class="row g-5">
-
+          
           <div class="col-lg-8">
 
             <article class="blog-details">
@@ -251,7 +256,11 @@
                 </div><!-- End comment reply #1-->
 
               </div><!-- End comment #2-->
-
+              <section>
+                <div class="container">
+                </div>
+              </section>
+              <script src="./assets/js/collection.js"></script>
               <div id="comment-3" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
