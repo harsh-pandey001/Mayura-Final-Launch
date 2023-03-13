@@ -18,7 +18,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/1.jpg" alt="">
+                    <img style = "width: fit-content; " src="../plain/16x16 plain/1.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -29,7 +29,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/2.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/2.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -40,7 +40,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/3.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/3.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -51,7 +51,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/4.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/4.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -62,7 +62,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/5.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/5.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -73,7 +73,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/6.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/6.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -84,7 +84,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/7.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/7.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES.
@@ -95,7 +95,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/8.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/8.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -106,7 +106,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/9.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/9.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -117,7 +117,7 @@ if (arg === "value1") {
         <li class="carousel__slide">
             <figure>
                 <div>
-                    <img src="../plain/16x16 plain/10.jpg" alt="">
+                    <img style = "width: fit-content;" src="../plain/16x16 plain/10.jpg" alt="">
                 </div>
                 <figcaption>
                     16x16 HEAVY DUTY PARKING TILES
@@ -129,34 +129,34 @@ if (arg === "value1") {
     </ul>    
     <ul class="carousel__thumbnails">
         <li>
-            <label for="slide-1"><img src="../plain/16x16 plain/1.jpg" alt=""></label>
+            <label for="slide-1"><img style = "width: fit-content;" src="../plain/16x16 plain/1.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-2"><img src="../plain/16x16 plain/2.jpg" alt=""></label>
+            <label for="slide-2"><img style = "width: fit-content;" src="../plain/16x16 plain/2.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-3"><img src="../plain/16x16 plain/3.jpg" alt=""></label>
+            <label for="slide-3"><img style = "width: fit-content;" src="../plain/16x16 plain/3.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-4"><img src="../plain/16x16 plain/4.jpg" alt=""></label>
+            <label for="slide-4"><img style = "width: fit-content;" src="../plain/16x16 plain/4.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-5"><img src="../plain/16x16 plain/5.jpg" alt=""></label>
+            <label for="slide-5"><img style = "width: fit-content;" src="../plain/16x16 plain/5.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-6"><img src="../plain/16x16 plain/6.jpg" alt=""></label>
+            <label for="slide-6"><img style = "width: fit-content;" src="../plain/16x16 plain/6.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-7"><img src="../plain/16x16 plain/7.jpg" alt=""></label>
+            <label for="slide-7"><img style = "width: fit-content;" src="../plain/16x16 plain/7.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-8"><img src="../plain/16x16 plain/8.jpg" alt=""></label>
+            <label for="slide-8"><img style = "width: fit-content;" src="../plain/16x16 plain/8.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-9"><img src="../plain/16x16 plain/9.jpg" alt=""></label>
+            <label for="slide-9"><img style = "width: fit-content;" src="../plain/16x16 plain/9.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-10"><img src="../plain/16x16 plain/10.jpg" alt=""></label>
+            <label for="slide-10"><img style = "width: fit-content;" src="../plain/16x16 plain/10.jpg" alt=""></label>
         </li>
         
     </ul>
@@ -180,7 +180,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/1.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/1.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -191,7 +191,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/2.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/2.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -202,7 +202,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/3.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/3.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -213,7 +213,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/4.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/4.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -224,7 +224,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/5.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/5.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -235,7 +235,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/6.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/6.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -246,7 +246,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/7.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/7.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -257,7 +257,7 @@ if (arg === "value1") {
     <li class="carousel__slide">
         <figure>
             <div>
-                <img src="../plain/16x16 Punch/8.jpg" alt="">
+                <img style = "width: fit-content;" src="../plain/16x16 Punch/8.jpg" alt="">
             </div>
             <figcaption>
                 16x16 HEAVY DUTY PARKING TILES PUNCH
@@ -268,28 +268,28 @@ if (arg === "value1") {
     </ul>    
 <ul class="carousel__thumbnails">
     <li>
-        <label for="slide-11"><img src="../plain/16x16 Punch/1.jpg" alt=""></label>
+        <label for="slide-11"><img style = "width: fit-content;" src="../plain/16x16 Punch/1.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-12"><img src="../plain/16x16 Punch/2.jpg" alt=""></label>
+        <label for="slide-12"><img style = "width: fit-content;" src="../plain/16x16 Punch/2.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-13"><img src="../plain/16x16 Punch/3.jpg" alt=""></label>
+        <label for="slide-13"><img style = "width: fit-content;" src="../plain/16x16 Punch/3.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-14"><img src="../plain/16x16 Punch/4.jpg" alt=""></label>
+        <label for="slide-14"><img style = "width: fit-content;" src="../plain/16x16 Punch/4.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-15"><img src="../plain/16x16 Punch/5.jpg" alt=""></label>
+        <label for="slide-15"><img style = "width: fit-content;" src="../plain/16x16 Punch/5.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-16"><img src="../plain/16x16 Punch/6.jpg" alt=""></label>
+        <label for="slide-16"><img style = "width: fit-content;" src="../plain/16x16 Punch/6.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-17"><img src="../plain/16x16 Punch/7.jpg" alt=""></label>
+        <label for="slide-17"><img style = "width: fit-content;" src="../plain/16x16 Punch/7.jpg" alt=""></label>
     </li>
     <li>
-        <label for="slide-18"><img src="../plain/16x16 Punch/8.jpg" alt=""></label>
+        <label for="slide-18"><img style = "width: fit-content;" src="../plain/16x16 Punch/8.jpg" alt=""></label>
     </li>
 </ul>
 </div>`;

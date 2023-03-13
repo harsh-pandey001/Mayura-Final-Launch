@@ -88,7 +88,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--color-primary);
+  background: #ee9a13;
   display: inline-block;
 }
 
@@ -661,7 +661,7 @@ section {
   padding: 12px 15px;
 }
 
-.get-started .php-email-form button[type=submit] {
+.conatact_btn {
   background: var(--color-primary);
   border: 0;
   padding: 10px 30px;
@@ -670,7 +670,7 @@ section {
   border-radius: 4px;
 }
 
-.get-started .php-email-form button[type=submit]:hover {
+.conatact_btn:hover {
   background: rgba(254, 185, 0, 0.8);
 }
 
