@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Mayura Ceramic</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <!-- Favicons -->
     <link
@@ -14,35 +11,21 @@
       href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     />
 
-    <link href="./assets/img/Mayura Logo.svg" rel="apple-touch-icon" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Favicons -->
+    <!-- Favicons -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     />
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/fontawesome-free/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="./assets/img/Mayura Logo.svg" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
@@ -74,24 +57,58 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     <link rel="stylesheet" href="assets/css/img.css" />
   </head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/Mayura Logo.png" alt="" />
-          <!-- <h1>Mayura<span>.</span></h1> -->
-        </a>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/img.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="text/javascript" src="./assets/js/emailjs.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init("ZYgDK7naOMejZ-trV");
+    })();
+  </script>
+  <!-- <script src="./assets/js/collection.js"></script> -->
+</head>
+<script src="assets/js/img.js"></script>
+
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/Mayura Logo.png" alt="" />
+        <!-- <h1>Mayura<span>.</span></h1> -->
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <!-- <li><a href="services.html">Collections</a></li> -->
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html">Designs</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Collections</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="blog-details.html?arg=value1">16x16 Plain</a></li>
+              <li><a href="collections.html?arg=value2">16x16 Punch</a></li>
+              <li><a href="collections.html?arg=value3">24x24 Carving</a></li>
+              <li><a href="collections.html?arg=value4">24x48 Glossy</a></li>
+              <li><a href="collections.html?arg=value5">24x48 Carving</a></li>
+              <!-- <li><a href="#">High Glos FInish</a></li>
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="index.html" class="active">Home</a></li>
-            <!-- <li><a href="services.html">Collections</a></li> -->
+             <li><a href="services.html">Collections</a></li> -->
             <li><a href="about.html">About</a></li>
             <li><a href="#projects">Designs</a></li>
             <li class="dropdown">
@@ -110,96 +127,55 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
                   <a href="blog-details.html?arg=value5">24x48 Carving</a>
                 </li>
                 <!-- <li><a href="#">High Glos FInish</a></li>
-              <li><a href="#">Dropdown 4</a></li> -->
-              </ul>
-            </li>
-            <li><a href="contact.html">Reach Us</a></li>
-          </ul>
-        </nav>
-        <!-- .navbar -->
-      </div>
-    </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero">
-      <div class="info d-flex align-items-center">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-              <h2 data-aos="fade-down">
-                Welcome to <br /><span> Mayura Ceramic </span>
-              </h2>
-              <p data-aos="fade-up">
-                "Mayura Ceramic" tile store in Indore -Deals in Ceramic tile,
-                Bathroom tile, Kitchen tile, Vitrified tile, Floor tile, 3D
-                tile.
-              </p>
-              <a
-                data-aos="fade-up"
-                data-aos-delay="200"
-                href="#get-started"
-                class="btn-get-started"
-                >Get Started</a
-              >
-            </div>
+              <li><a href="#">Dropdown 4</a></li> -->
+            </ul>
+          </li>
+          <li><a href="contact.html">Reach Us</a></li>
+        </ul>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">
+              Welcome to <br /><span> Mayura Ceramic </span>
+            </h2>
+            <p data-aos="fade-up">
+              "Mayura Ceramic" tile store in Indore -Deals in Ceramic tile,
+              Bathroom tile, Kitchen tile, Vitrified tile, Floor tile, 3D
+              tile.
+            </p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div
-        id="hero-carousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="5000"
-      >
-        <div
-          class="carousel-item active"
-          style="background-image: url(assets/front/03.jpg)"
-        ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/front/01.jpg)"
-        ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/front/02.jpg)"
-        ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/front/03.jpg)"
-        ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/front/05.jpg)"
-        ></div>
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-item active" style="background-image: url(assets/front/03.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/front/01.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/front/02.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/front/03.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/front/05.jpg)"></div>
 
-        <a
-          class="carousel-control-prev"
-          href="#hero-carousel"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon bi bi-chevron-left"
-            aria-hidden="true"
-          ></span>
-        </a>
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
 
-        <a
-          class="carousel-control-next"
-          href="#hero-carousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon bi bi-chevron-right"
-            aria-hidden="true"
-          ></span>
-        </a>
-      </div>
-    </section>
-    <!-- End Hero Section -->
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+  <!-- End Hero Section -->
 
     <main id="main">
       <!-- ======= Get Started Section ======= -->
@@ -303,6 +279,86 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
               </form>
             </div>
           </div>
+
+          <div class="contact-form">
+            <!-- <span class="circle one"></span>
+              <span class="circle two"></span> -->
+
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" id="fullName" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" id="email_id" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" onkeypress="return onlyNumberKey(event)"
+                  id="phone_number" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input" id="message"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="reset" onclick="SendMail()" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+        <!-- 
+
+              <form action="index.html" autocomplete="off">
+                <h3 class="title">Contact us</h3>
+                <div class="input-container">
+                  <input type="text" name="name" class="input" id="fullName" />
+                  <label for="">Name</label>
+                  <span>Name</span>
+                </div>
+                <div class="input-container">
+                  <input
+                    type="email"
+                    name="email"
+                    class="input"
+                    id="email_id"
+                  />
+                  <label for="">Email</label>
+                  <span>Email</span>
+                </div>
+                <div class="input-container">
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="input"
+                    onkeypress="return onlyNumberKey(event)"
+                    id="phone_number"
+                  />
+                  <label for="">Phone</label>
+                  <span>Phone</span>
+                </div>
+                <div class="input-container textarea">
+                  <textarea
+                    name="message"
+                    class="input"
+                    id="message"
+                  ></textarea>
+                  <label for="">Message</label>
+                  <span>Message</span>
+                </div>
+                <input
+                  type="reset"
+                  onclick="SendMail()"
+                  value="Send"
+                  class="btn"
+                />
+              </form>
+            </div>
+          </div>
           <!-- 
         <div class="row justify-content-between gy-4">
 
@@ -349,10 +405,10 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
           </div>
           
         </div> -->
-          <!-- End Quote Form -->
-        </div>
-      </section>
-      <!-- End Get Started Section -->
+        <!-- End Quote Form -->
+      </div>
+    </section>
+    <!-- End Get Started Section -->
 
       <section>
         <div  class="jakks section-header">
@@ -486,6 +542,7 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
               distinctio
             </p>
           </div>
+          <!-- End footer info column-->
 
           <div
             class="portfolio-isotope"
@@ -760,27 +817,27 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
 
             <!-- End footer links column-->
           </div>
+       
+          <!-- End footer links column-->
         </div>
       </div>
-    </footer>
-    <!-- End Footer -->
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-    <a
-      href="#"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <div id="preloader"></div>
+  <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
     <script src="./assets/js/image.js"></script>
