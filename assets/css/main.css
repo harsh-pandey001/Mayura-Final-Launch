@@ -1209,7 +1209,6 @@ section {
 .about .our-story {
   padding: 40px;
   background-color: #f5f6f7;
-  color: #000;
 }
 
 @media (min-width: 991px) {
@@ -1221,14 +1220,14 @@ section {
 .about .our-story h4 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #000;
+  color: #838893;
 }
 
 .about .our-story h3 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: black;
+  color: var(--color-secondary);
 }
 
 .about .our-story p:last-child {
