@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="font-size: 100%" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -9,10 +9,6 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link
-      rel="stylesheet"
-      href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
-    />
 
     <link href="./assets/img/Mayura Logo.svg" rel="apple-touch-icon" />
 
@@ -42,12 +38,20 @@
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- problem -->
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+    />
+
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/img.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/image.css" />
     <script type="text/javascript" src="./assets/js/emailjs.js"></script>
@@ -62,10 +66,6 @@
       })();
     </script>
 
-    <!-- <link
-rel="stylesheet"
-href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
-/> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/sliders.css" />
@@ -78,8 +78,9 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     <!-- ======= Header ======= -->
     <header id="header" class="header d-flex align-items-center">
       <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+        class="container-xl d-flex align-items-center justify-content-between"
       >
+        <!-- container-fluid  (class)-->
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="assets/img/Mayura Logo.png" alt="" />
@@ -202,7 +203,327 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     <!-- End Hero Section -->
 
     <main id="main">
-      <!-- ======= Get Started Section ======= -->
+      <section>
+        <div class="jakks section-header">
+          <h2>Products By Mayura</h2>
+        </div>
+        <div class="container_product">
+          <div
+            id="carousel-demo"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="100000"
+          >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                id="img1"
+                data-target="#carousel-demo"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li id="img2" data-target="#carousel-demo" data-slide-to="1"></li>
+              <li data-target="#carousel-demo" data-slide-to="2"></li>
+              <li data-target="#carousel-demo" data-slide-to="3"></li>
+              <li data-target="#carousel-demo" data-slide-to="4"></li>
+            </ol>
+            <!-- Sliding images statring here -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="cont_img"
+                  src="./assets/img/Product/Kitchen.jpg"
+                  alt="banana"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  class="cont_img"
+                  src="./assets/img/Product/Bathroom.jpg"
+                  alt="currant"
+                />
+              </div>
+              <div class="item">
+                <img
+                  class="cont_img"
+                  src="./assets/img/Product/Outdoor.jpg"
+                  alt="mango"
+                />
+              </div>
+              <div class="item">
+                <img
+                  class="cont_img"
+                  src="./assets/img/Product/Staircase.jpg"
+                  alt="strawberries"
+                />
+              </div>
+              <div class="item">
+                <img
+                  class="cont_img"
+                  src="./assets/img/Product/Living Room.jpg"
+                  alt="strawberries"
+                />
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <h3>Product By Mayura</h3>
+              <div class="contented" style="margin-top: 2rem">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                nihil impedit illo similique fugiat rerum veniam a ipsa corrupti
+                error distinctio assumenda sapiente eius, quam voluptatibus
+                ratione eaque harum dolor.
+              </div>
+              <div class="box_cont">
+                <div class="const1">
+                  <a
+          
+                    data-target="#carousel-demo"
+                    data-slide-to="0"
+                    class="active small_box"
+                    >1</a
+                  >Kitchen Tiles
+                </div>
+                <div class="const2">
+                  <a
+                    data-target="#carousel-demo"
+                    data-slide-to="1"
+                    class="small_box"
+                    >2</a
+                  >
+                  Bathroom Tiles
+                </div>
+
+                <div class="const3">
+                  <a
+                    data-target="#carousel-demo"
+                    data-slide-to="2"
+                    class="small_box"
+                    >3</a
+                  >Outdoor Tiles
+                </div>
+
+                <div class="const4">
+                  <a
+                    data-target="#carousel-demo"
+                    data-slide-to="3"
+                    class="small_box"
+                    >4</a
+                  >Staircase Tiles
+                </div>
+
+                <div class="const5">
+                  <a
+                    data-target="#carousel-demo"
+                    data-slide-to="4"
+                    class="small_box"
+                    >5</a
+                  >Living Room Tiles
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Our Designs Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Designs</h2>
+            <p>
+              Consequatur libero assumenda est voluptatem est quidem illum et
+              officia imilique qui vel architecto accusamus fugit aut qui
+              distinctio
+            </p>
+          </div>
+
+          <div
+            class="portfolio-isotope"
+            data-portfolio-filter="*"
+            data-portfolio-layout="masonry"
+            data-portfolio-sort="original-order"
+          >
+            <ul
+              class="portfolio-flters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter=".filter-polished">Polished Finish</li>
+              <li data-filter=".filter-matt">Matt Finish</li>
+              <li data-filter=".filter-repairs">High Glossy Finish</li>
+              <li data-filter=".filter-design">Rocker Finish</li>
+            </ul>
+            <!-- End Projects Filters -->
+
+            <div class="section-header" style="padding-bottom: 0;
+            padding-top: 5rem;">
+              <h3>Plain Finish</h3>
+            </div>
+
+            <div id="Plain" class="swiper mySwiperr">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/plan/10.jpg" />
+                </div>
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+            <!-- Matt -->
+            <div class="section-header"  style="padding-bottom: 0;
+            padding-top: 5rem;">
+              <h3>Matt Finish</h3>
+            </div>
+            <div class="swiper mySwiperr">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/matt/10.jpg" />
+                </div>
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+            <!-- Glossy -->
+            <div class="section-header"  style="padding-bottom: 0;
+            padding-top: 5rem;">
+              <h3>Glossy Finish</h3>
+            </div>
+
+            <div class="heigh swiper mySwiperr">
+              <div class="heigh swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Glossy/10.jpg" />
+                </div>
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+            <!-- Carving -->
+            <div  class="section-header" style="padding-bottom: 0;
+            padding-top: 5rem;">
+              <h3>Carving Finish</h3>
+            </div>
+
+            <div class="heigh swiper mySwiperr" >
+              <div class="heigh swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Carving/9.jpg" />
+                </div>
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Contact Details ======= -->
       <section
         id="get-started"
         class="get-started section-bg"
@@ -249,13 +570,13 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
                   </a>
                 </div>
                 <!-- <br>
-                <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div> -->
+         <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div> -->
               </div>
             </div>
 
             <div class="contact-form">
               <!-- <span class="circle one"></span>
-              <span class="circle two"></span> -->
+       <span class="circle two"></span> -->
 
               <form action="index.html" autocomplete="off">
                 <h3 class="title">Contact us</h3>
@@ -303,378 +624,18 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
               </form>
             </div>
           </div>
-          <!-- 
-        <div class="row justify-content-between gy-4">
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required>
-                </div>
-
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
-              </div>
-            </form>
-          </div>
-          
-        </div> -->
           <!-- End Quote Form -->
         </div>
       </section>
-      <!-- End Get Started Section -->
-
-      <section>
-        <div  class="jakks section-header">
-          <h2>Products By Mayura</h2>
-        </div>
-        <div class="container_product">
-          <div
-            id="carousel-demo"
-            class="carousel slide"
-            data-ride="carousel"
-            data-interval="100000"
-          >
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li
-                id="img1"
-                data-target="#carousel-demo"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li id="img2" data-target="#carousel-demo" data-slide-to="1"></li>
-              <li data-target="#carousel-demo" data-slide-to="2"></li>
-              <li data-target="#carousel-demo" data-slide-to="3"></li>
-              <li data-target="#carousel-demo" data-slide-to="4"></li>
-            </ol>
-            <!-- Sliding images statring here -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img
-                   class = "cont_img"
-                  src="./assets/img/Product/Kitchen.jpg"
-                  alt="banana"
-                />
-              </div>
-
-              <div class="item">
-                <img
-                class = "cont_img"
-                  src="./assets/img/Product/Bathroom.jpg"
-                  alt="currant"
-                />
-              </div>
-              <div class="item">
-                <img
-                class = "cont_img"
-                  src="./assets/img/Product/Outdoor.jpg"
-                  alt="mango"
-                />
-              </div>
-              <div class="item">
-                <img
-                class = "cont_img"
-                  src="./assets/img/Product/Staircase.jpg"
-                  alt="strawberries"
-                />
-              </div>
-              <div class="item">
-                <img
-                class = "cont_img"
-                  src="./assets/img/Product/Living Room.jpg"
-                  alt="strawberries"
-                />
-              </div>
-            </div>
-            <div class="carousel-caption">
-              <h3>Product By Mayura</h3>
-              <div class="contented" style="margin-top: 2rem">
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nihil impedit illo similique fugiat rerum veniam a ipsa corrupti error distinctio assumenda sapiente eius, quam voluptatibus ratione eaque harum dolor.
-              </div>
-              <div class="box_cont">
-                <div class="const1">
-                  <a style="font-size: 15px;"
-                    data-target="#carousel-demo"
-                    data-slide-to="0"
-                    class="active small_box"
-                    >1</a
-                  >Kitchen Tiles
-                  
-                </div>
-                <div class="const2">
-                  <a style="font-size: 15px;"
-                    data-target="#carousel-demo"
-                    data-slide-to="1"
-                    class="small_box"
-                    >2</a
-                  >
-                  Bathroom Tiles
-                </div>
-
-                <div class="const3">
-                  <a style="font-size: 15px;"
-                    data-target="#carousel-demo"
-                    data-slide-to="2"
-                    class="small_box"
-                    >3</a
-                  >Outdoor Tiles
-                 
-                </div>
-
-                <div class="const4">
-                  <a style="font-size: 15px;"
-                    data-target="#carousel-demo"
-                    data-slide-to="3"
-                    class="small_box"
-                    >4</a
-                  >Staircase Tiles
-                </div>
-
-                <div class="const5">
-                  <a style="font-size: 15px;"
-                    data-target="#carousel-demo"
-                    data-slide-to="4"
-                    class="small_box"
-                    >5</a
-                  >Living Room Tiles
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ======= Our Designs Section ======= -->
-      <section id="projects" class="projects">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Our Designs</h2>
-            <p>
-              Consequatur libero assumenda est voluptatem est quidem illum et
-              officia imilique qui vel architecto accusamus fugit aut qui
-              distinctio
-            </p>
-          </div>
-
-          <div
-            class="portfolio-isotope"
-            data-portfolio-filter="*"
-            data-portfolio-layout="masonry"
-            data-portfolio-sort="original-order"
-          >
-            <ul
-              class="portfolio-flters"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <li data-filter=".filter-polished">Polished Finish</li>
-              <li data-filter=".filter-matt">Matt Finish</li>
-              <li data-filter=".filter-repairs">High Glossy Finish</li>
-              <li data-filter=".filter-design">Rocker Finish</li>
-            </ul>
-            <!-- End Projects Filters -->
-            
-            <div  class="section-header">
-              <h3>Plain Finish</h3>
-            </div>
-
-            <div id="Plain" class="swiper mySwiperr">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/1.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/2.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/3.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/4.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/5.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/6.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/7.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/8.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/9.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/plan/10.jpg" />
-                </div>
-              </div>
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-
-            <!-- Matt -->
-            <div  class="section-header">
-              <h3>Matt Finish</h3>
-            </div>
-            <div class="swiper mySwiperr">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/1.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/2.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/3.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/4.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/5.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/6.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/7.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/8.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/9.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/matt/10.jpg" />
-                </div>
-              </div>
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-           
-            <!-- Glossy -->
-            <div  class="section-header">
-              <h3>Glossy Finish</h3>
-            </div>
-
-            <div class="swiper mySwiperr" style = " height: 100vh;">
-              <div class="swiper-wrapper" style="height: 100vh">
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/1.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/2.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/3.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/4.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/5.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/6.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/7.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/8.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/9.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Glossy/10.jpg" />
-                </div>
-              </div>
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-
-            <!-- Carving -->
-            <div  class="section-header">
-              <h3>Carving Finish</h3>
-            </div>
-
-            <div class="swiper mySwiperr" style="height: 100vh">
-              <div class="swiper-wrapper" style="height: 100vh">
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/1.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/2.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/3.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/4.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/5.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/6.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/7.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/8.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/Carving/9.jpg" />
-                </div>
-              </div>
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-            <!-- Swiper JS -->
-            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-          </div>
-        </div>
-      </section>
+      <!-- End Contact Details -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
       <div class="footer-content position-relative">
-        <div class="container">
+        <div class="container" style="max-width: 1140px;">
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
