@@ -81,7 +81,8 @@
 .carousel-caption h3:after {
   content: "";
   width: 50px;
-  height: 2px;
+  height: 5px;
+  border-radius: 3px;
   background: #ee9a13;
   display: inline-block;
 }
