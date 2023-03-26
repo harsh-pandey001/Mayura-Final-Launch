@@ -1,9 +1,9 @@
 const arg = new URLSearchParams(window.location.search).get("arg");
 // Modify the content of the page based on the argument value
 if (arg === "value1") {
-  document.getElementsByClassName(
-    "container69"
-  )[0].innerHTML = `<div class="carousel">
+    document.getElementsByClassName(
+        "container69"
+    )[0].innerHTML = `<div class="carousel">
     <input type="radio" name="slides" checked="checked" id="slide-1">
     <input type="radio" name="slides" id="slide-2">
     <input type="radio" name="slides" id="slide-3">
@@ -14,6 +14,10 @@ if (arg === "value1") {
     <input type="radio" name="slides" id="slide-8">
     <input type="radio" name="slides" id="slide-9">
     <input type="radio" name="slides" id="slide-10">
+    <input type="radio" name="slides" id="slide-11">
+    <input type="radio" name="slides" id="slide-12">
+    <input type="radio" name="slides" id="slide-13">
+    <input type="radio" name="slides" id="slide-14">
     <ul class="carousel__slides">
         <li class="carousel__slide">
             <figure>
@@ -21,8 +25,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content; " src="./plain/12x18 Glossy/1.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3001</span>
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11008-L, 11008-HL</span>
                 </figcaption>
             </figure>
         </li>
@@ -32,8 +36,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/2.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3002</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11589-L, 11589-HL-2, 11589-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -43,8 +47,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/3.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3005</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11077-L, 11077-HL, 11077-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -54,8 +58,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/4.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3011</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11196-L, 11196-HL-2, 11196-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -65,8 +69,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/5.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3012</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11259-L, 11259-HL, 11259-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -76,8 +80,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/6.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3033</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 31056-L,31056-HL-2, 31056-D </span>                            
                 </figcaption>
             </figure>
         </li>
@@ -87,8 +91,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/7.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES.
-                    <span class="credit">Design no:- 3062</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11214-L, 11214-HL, 11214-D </span>                            
                 </figcaption>
             </figure>
         </li>
@@ -98,8 +102,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/8.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3082</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11126-L, 11126-HL, 11126-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -109,8 +113,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/9.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3205</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11267-L, 11267-HL, 11267-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -120,8 +124,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/10.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3250</span>                            
+                12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11148-L, 11148-HL, 11148-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -131,8 +135,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/11.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3250</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11255-L, 11255-HL-2, 11255-D </span>                            
                 </figcaption>
             </figure>
         </li>
@@ -142,8 +146,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/12.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3250</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11553-L, 11553-HL, 11553-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -153,8 +157,8 @@ if (arg === "value1") {
                 <img style = "width: fit-content;" src="./plain/12x18 Glossy/13.jpg" alt="">
             </div>
             <figcaption>
-                16x16 HEAVY DUTY PARKING TILES
-                <span class="credit">Design no:- 3250</span>                            
+                12x18 Glossy Wall Tiles
+                <span class="credit">Design no:- 11024-L, 11024-HL, 11024-D</span>                            
             </figcaption>
         </figure>
     </li>
@@ -164,8 +168,8 @@ if (arg === "value1") {
                     <img style = "width: fit-content;" src="./plain/12x18 Glossy/14.jpg" alt="">
                 </div>
                 <figcaption>
-                    16x16 HEAVY DUTY PARKING TILES
-                    <span class="credit">Design no:- 3250</span>                            
+                    12x18 Glossy Wall Tiles
+                    <span class="credit">Design no:- 11085-L, 11085-HL, 11085-D</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -202,27 +206,27 @@ if (arg === "value1") {
             <label for="slide-10"><img style = "width: fit-content;" src="./plain/12x18 Glossy/10.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-10"><img style = "width: fit-content;" src="./plain/12x18 Glossy/11.jpg" alt=""></label>
+            <label for="slide-11"><img style = "width: fit-content;" src="./plain/12x18 Glossy/11.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-10"><img style = "width: fit-content;" src="./plain/12x18 Glossy/12.jpg" alt=""></label>
+            <label for="slide-12"><img style = "width: fit-content;" src="./plain/12x18 Glossy/12.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-10"><img style = "width: fit-content;" src="./plain/12x18 Glossy/13.jpg" alt=""></label>
+            <label for="slide-13"><img style = "width: fit-content;" src="./plain/12x18 Glossy/13.jpg" alt=""></label>
         </li>
         <li>
-            <label for="slide-10"><img style = "width: fit-content;" src="./plain/12x18 Glossy/14.jpg" alt=""></label>
+            <label for="slide-14"><img style = "width: fit-content;" src="./plain/12x18 Glossy/14.jpg" alt=""></label>
         </li>
         
     </ul>
 </div>`;
-  //  document.getElementsByTagName("input").setAttribute("id","slide-21");
-  //   var val1 = document.getElementsByTagName("input").innerHTMl
-  //    val1.inn = "./assets/Pamplate/Living Room.jpg";
-}  else if (arg === "value2") {
-  document.getElementsByClassName(
-    "container69"
-  )[0].innerHTML = `<div class="carousel">
+    //  document.getElementsByTagName("input").setAttribute("id","slide-21");
+    //   var val1 = document.getElementsByTagName("input").innerHTMl
+    //    val1.inn = "./assets/Pamplate/Living Room.jpg";
+} else if (arg === "value2") {
+    document.getElementsByClassName(
+        "container69"
+    )[0].innerHTML = `<div class="carousel">
 <input type="radio" name="slides" checked="checked" id="slide-11">
 <input type="radio" name="slides" id="slide-12">
 <input type="radio" name="slides" id="slide-13">
@@ -354,135 +358,167 @@ else if (arg === "value3") {
     document.getElementsByClassName(
       "container69"
     )[0].innerHTML = `<div class="carousel">
-  <input type="radio" name="slides" checked="checked" id="slide-11">
-  <input type="radio" name="slides" id="slide-12">
-  <input type="radio" name="slides" id="slide-13">
-  <input type="radio" name="slides" id="slide-14">
-  <input type="radio" name="slides" id="slide-15">
-  <input type="radio" name="slides" id="slide-16">
-  <input type="radio" name="slides" id="slide-17">
-  <input type="radio" name="slides" id="slide-18">
-  <ul class="carousel__slides">
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/1.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 1011</span>
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/2.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2017</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/3.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2026</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/4.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2037</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/5.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2051</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/6.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2070</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/7.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2075</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/8.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2076</span>                            
-              </figcaption>
-          </figure>
-      </li>
+      <input type="radio" name="slides" checked="checked" id="slide-1">
+      <input type="radio" name="slides" id="slide-2">
+      <input type="radio" name="slides" id="slide-3">
+      <input type="radio" name="slides" id="slide-4">
+      <input type="radio" name="slides" id="slide-5">
+      <input type="radio" name="slides" id="slide-6">
+      <input type="radio" name="slides" id="slide-7">
+      <input type="radio" name="slides" id="slide-8">
+      <input type="radio" name="slides" id="slide-9">
+      <input type="radio" name="slides" id="slide-10">
+      <ul class="carousel__slides">
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content; " src="./plain/16x16 plain/1.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3001</span>
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/2.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3002</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/3.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3005</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/4.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3011</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/5.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3012</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/6.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3033</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/7.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES.
+                      <span class="credit">Design no:- 3062</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/8.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3082</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/9.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3205</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+          <li class="carousel__slide">
+              <figure>
+                  <div>
+                      <img style = "width: fit-content;" src="./plain/16x16 plain/10.jpg" alt="">
+                  </div>
+                  <figcaption>
+                      16x16 HEAVY DUTY PARKING TILES
+                      <span class="credit">Design no:- 3250</span>                            
+                  </figcaption>
+              </figure>
+          </li>
+  
       </ul>    
-  <ul class="carousel__thumbnails">
-      <li>
-          <label for="slide-11"><img style = "width: fit-content;" src="./plain/16x16 Punch/1.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-12"><img style = "width: fit-content;" src="./plain/16x16 Punch/2.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-13"><img style = "width: fit-content;" src="./plain/16x16 Punch/3.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-14"><img style = "width: fit-content;" src="./plain/16x16 Punch/4.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-15"><img style = "width: fit-content;" src="./plain/16x16 Punch/5.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-16"><img style = "width: fit-content;" src="./plain/16x16 Punch/6.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-17"><img style = "width: fit-content;" src="./plain/16x16 Punch/7.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-18"><img style = "width: fit-content;" src="./plain/16x16 Punch/8.jpg" alt=""></label>
-      </li>
-  </ul>
+      <ul class="carousel__thumbnails">
+          <li>
+              <label for="slide-1"><img style = "width: fit-content;" src="./plain/16x16 plain/1.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-2"><img style = "width: fit-content;" src="./plain/16x16 plain/2.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-3"><img style = "width: fit-content;" src="./plain/16x16 plain/3.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-4"><img style = "width: fit-content;" src="./plain/16x16 plain/4.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-5"><img style = "width: fit-content;" src="./plain/16x16 plain/5.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-6"><img style = "width: fit-content;" src="./plain/16x16 plain/6.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-7"><img style = "width: fit-content;" src="./plain/16x16 plain/7.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-8"><img style = "width: fit-content;" src="./plain/16x16 plain/8.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-9"><img style = "width: fit-content;" src="./plain/16x16 plain/9.jpg" alt=""></label>
+          </li>
+          <li>
+              <label for="slide-10"><img style = "width: fit-content;" src="./plain/16x16 plain/10.jpg" alt=""></label>
+          </li>
+          
+      </ul>
   </div>`;
-  }
-else if (arg === "value4") {
+    }
+  else if (arg === "value4") {
     document.getElementsByClassName(
-      "container69"
+        "container69"
     )[0].innerHTML = `<div class="carousel">
   <input type="radio" name="slides" checked="checked" id="slide-11">
   <input type="radio" name="slides" id="slide-12">
@@ -609,141 +645,12 @@ else if (arg === "value4") {
       </li>
   </ul>
   </div>`;
-  }
+}
+
 else if (arg === "value5") {
     document.getElementsByClassName(
-      "container69"
+        "container69"
     )[0].innerHTML = `<div class="carousel">
-  <input type="radio" name="slides" checked="checked" id="slide-11">
-  <input type="radio" name="slides" id="slide-12">
-  <input type="radio" name="slides" id="slide-13">
-  <input type="radio" name="slides" id="slide-14">
-  <input type="radio" name="slides" id="slide-15">
-  <input type="radio" name="slides" id="slide-16">
-  <input type="radio" name="slides" id="slide-17">
-  <input type="radio" name="slides" id="slide-18">
-  <ul class="carousel__slides">
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/1.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 1011</span>
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/2.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2017</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/3.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2026</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/4.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2037</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/5.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2051</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/6.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2070</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/7.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2075</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      <li class="carousel__slide">
-          <figure>
-              <div>
-                  <img style = "width: fit-content;" src="./plain/16x16 Punch/8.jpg" alt="">
-              </div>
-              <figcaption>
-                  16x16 HEAVY DUTY PARKING TILES PUNCH
-                  <span class="credit">Design no:- 2076</span>                            
-              </figcaption>
-          </figure>
-      </li>
-      </ul>    
-  <ul class="carousel__thumbnails">
-      <li>
-          <label for="slide-11"><img style = "width: fit-content;" src="./plain/16x16 Punch/1.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-12"><img style = "width: fit-content;" src="./plain/16x16 Punch/2.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-13"><img style = "width: fit-content;" src="./plain/16x16 Punch/3.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-14"><img style = "width: fit-content;" src="./plain/16x16 Punch/4.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-15"><img style = "width: fit-content;" src="./plain/16x16 Punch/5.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-16"><img style = "width: fit-content;" src="./plain/16x16 Punch/6.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-17"><img style = "width: fit-content;" src="./plain/16x16 Punch/7.jpg" alt=""></label>
-      </li>
-      <li>
-          <label for="slide-18"><img style = "width: fit-content;" src="./plain/16x16 Punch/8.jpg" alt=""></label>
-      </li>
-  </ul>
-  </div>`;
-  }
-else if (arg === "value6") {
-  document.getElementsByClassName(
-    "container69"
-  )[0].innerHTML = `<div class="carousel">
     <input type="radio" name="slides" checked="checked" id="slide-21">
     <input type="radio" name="slides" id="slide-22">
     <input type="radio" name="slides" id="slide-23">
@@ -946,10 +853,10 @@ else if (arg === "value6") {
 
     </ul>
 </div>`;
-} else if (arg === "value7") {
-  document.getElementsByClassName(
-    "container69"
-  )[0].innerHTML = `<div class="carousel">
+} else if (arg === "value8") {
+    document.getElementsByClassName(
+        "container69"
+    )[0].innerHTML = `<div class="carousel">
      <input type="radio" name="slides" checked="checked" id="slide-41">
      <input type="radio" name="slides" id="slide-42">
      <input type="radio" name="slides" id="slide-43">
@@ -1105,10 +1012,10 @@ else if (arg === "value6") {
          </li>
      </ul>
  </div>`;
-} 
-else if (arg === "value8") {
+}
+else if (arg === "value9") {
     document.getElementsByClassName(
-      "container69"
+        "container69"
     )[0].innerHTML = `<div class="carousel">
  <input type="radio" name="slides" checked="checked" id="slide-51">
  <input type="radio" name="slides" id="slide-52">
