@@ -1,0 +1,20 @@
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.ig{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ig img{
+  width:50%;
+  height: auto;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .ig img{
+    width:80%;}
+}
