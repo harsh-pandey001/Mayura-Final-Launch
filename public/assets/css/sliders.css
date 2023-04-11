@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.tr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel-caption h3 {
   font-size: 20px;
   font-family: Verdana;

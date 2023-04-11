@@ -1,5 +1,6 @@
 const arg = new URLSearchParams(window.location.search).get("arg");
 // Modify the content of the page based on the argument value
+
 if (arg === "value1") {
     document.getElementsByClassName(
         "container69"
@@ -26,7 +27,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11008-L, 11008-HL</span>
+                    <span class="credit">Design no:- 11008</span>
                 </figcaption>
             </figure>
         </li>
@@ -37,7 +38,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11589-L, 11589-HL-2, 11589-D</span>                            
+                    <span class="credit">Design no:- 11589</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -48,7 +49,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11077-L, 11077-HL, 11077-D</span>                            
+                    <span class="credit">Design no:- 11077</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -59,7 +60,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11196-L, 11196-HL-2, 11196-D</span>                            
+                    <span class="credit">Design no:- 11196</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -70,7 +71,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11259-L, 11259-HL, 11259-D</span>                            
+                    <span class="credit">Design no:- 11259</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -81,7 +82,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 31056-L,31056-HL-2, 31056-D </span>                            
+                    <span class="credit">Design no:- 31056</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -92,7 +93,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11214-L, 11214-HL, 11214-D </span>                            
+                    <span class="credit">Design no:- 11214</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -103,7 +104,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11126-L, 11126-HL, 11126-D</span>                            
+                    <span class="credit">Design no:- 11126</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -114,7 +115,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11267-L, 11267-HL, 11267-D</span>                            
+                    <span class="credit">Design no:- 11267</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -125,7 +126,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                 12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11148-L, 11148-HL, 11148-D</span>                            
+                    <span class="credit">Design no:- 11148</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -136,7 +137,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11255-L, 11255-HL-2, 11255-D </span>                            
+                    <span class="credit">Design no:- 11255</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -147,7 +148,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11553-L, 11553-HL, 11553-D</span>                            
+                    <span class="credit">Design no:- 11553</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -158,7 +159,7 @@ if (arg === "value1") {
             </div>
             <figcaption>
                 12x18 Glossy Wall Tiles
-                <span class="credit">Design no:- 11024-L, 11024-HL, 11024-D</span>                            
+                <span class="credit">Design no:- 11024</span>                            
             </figcaption>
         </figure>
     </li>
@@ -169,7 +170,7 @@ if (arg === "value1") {
                 </div>
                 <figcaption>
                     12x18 Glossy Wall Tiles
-                    <span class="credit">Design no:- 11085-L, 11085-HL, 11085-D</span>                            
+                    <span class="credit">Design no:- 11085</span>                            
                 </figcaption>
             </figure>
         </li>
@@ -671,7 +672,7 @@ else if (arg === "value5") {
                     <img src="./plain/24x24 Carving/1.jpg" alt="">
                 </div>
                 <figcaption>
-                    24x24 PORCELAIN TILES CARVING STYLE 
+                    24x24 PORCELAIN TILES CARVING STYLE
                     <span class="credit">Design No:- 9002</span>
                 </figcaption>
             </figure>
@@ -853,7 +854,224 @@ else if (arg === "value5") {
 
     </ul>
 </div>`;
-} else if (arg === "value8") {
+}
+
+else if (arg === "value7") {
+    document.getElementsByClassName(
+        "container69"
+    )[0].innerHTML = `<div class="carousel">
+    <input type="radio" name="slides" checked="checked" id="slide-21" />
+    <input type="radio" name="slides" id="slide-22" />
+    <input type="radio" name="slides" id="slide-23" />
+    <input type="radio" name="slides" id="slide-24" />
+    <input type="radio" name="slides" id="slide-25" />
+    <input type="radio" name="slides" id="slide-26" />
+    <input type="radio" name="slides" id="slide-27" />
+    <input type="radio" name="slides" id="slide-28" />
+    <input type="radio" name="slides" id="slide-29" />
+    <input type="radio" name="slides" id="slide-30" />
+    <input type="radio" name="slides" id="slide-31" />
+    <input type="radio" name="slides" id="slide-32" />
+    <input type="radio" name="slides" id="slide-33" />
+    <ul class="carousel__slides">
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/1.jpg" alt="" />
+          </div>
+          <figcaption>
+            24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design No:- 1052</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/2.jpg" alt="" />
+          </div>
+          <figcaption>
+          24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 1111</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/3.jpg" alt="" />
+          </div>
+          <figcaption>
+          24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 2023</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/4.jpg" alt="" />
+          </div>
+          <figcaption>
+            24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3103</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/5.jpg" alt="" />
+          </div>
+          <figcaption>
+            24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3120</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/6.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3141</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/7.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3142</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/8.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3032</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/9.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3033</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/10.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 3122</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/11.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 6326</span>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="carousel__slide">
+        <figure>
+          <div>
+            <img src="./plain/24x24 Matt/12.jpg" alt="" />
+          </div>
+          <figcaption>
+           24x24 PORCELAIN TILES MATT FINISH
+            <span class="credit">Design no:- 6337</span>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+    <ul class="carousel__thumbnails">
+      <li>
+        <label for="slide-21"
+          ><img src="./plain/24x24 Matt/1.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-22"
+          ><img src="./plain/24x24 Matt/2.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-23"
+          ><img src="./plain/24x24 Matt/3.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-24"
+          ><img src="./plain/24x24 Matt/4.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-25"
+          ><img src="./plain/24x24 Matt/5.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-26"
+          ><img src="./plain/24x24 Matt/6.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-27"
+          ><img src="./plain/24x24 Matt/7.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-28"
+          ><img src="./plain/24x24 Matt/8.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-29"
+          ><img src="./plain/24x24 Matt/9.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-30"
+          ><img src="./plain/24x24 Matt/10.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-31"
+          ><img src="./plain/24x24 Matt/11.jpg" alt=""
+        /></label>
+      </li>
+      <li>
+        <label for="slide-32"
+          ><img src="./plain/24x24 Matt/12.jpg" alt=""
+        /></label>
+      </li>
+    </ul>
+  </div>`}
+
+else if (arg === "value8") {
     document.getElementsByClassName(
         "container69"
     )[0].innerHTML = `<div class="carousel">
@@ -1013,6 +1231,344 @@ else if (arg === "value5") {
      </ul>
  </div>`;
 }
+else if(arg === "value6"){
+    document.getElementsByClassName("container69")[0].innerHTML = `
+        <div class="carousel">
+        <input type="radio" name="slides" checked="checked" id="slide-21">
+        <input type="radio" name="slides" id="slide-22">
+        <input type="radio" name="slides" id="slide-23">
+        <input type="radio" name="slides" id="slide-24">
+        <input type="radio" name="slides" id="slide-25">
+        <input type="radio" name="slides" id="slide-26">
+        <input type="radio" name="slides" id="slide-27">
+        <input type="radio" name="slides" id="slide-28">
+        <input type="radio" name="slides" id="slide-29">
+        <input type="radio" name="slides" id="slide-30">
+        <input type="radio" name="slides" id="slide-31">
+        <input type="radio" name="slides" id="slide-32">
+        <input type="radio" name="slides" id="slide-33">
+        <ul class="carousel__slides">
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/1.jpg" alt="">
+                    </div>
+                    <figcaption>
+                        24x24 VITRIFIED TILES DOUBLE CHARGED 
+                        <span class="credit">Design Name:- White</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/2.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Ivory</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/3.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Dove</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/4.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Pista</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/5.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Coral</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/6.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Biscuit</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/7.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Ash</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/8.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Italian</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/9.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Cherry</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/10.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- RubyNut</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/11.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Olive</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/12.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Jupiter White</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="carousel__slide">
+                <figure>
+                    <div>
+                        <img src="./plain/24x24 Double Charged/13.jpg" alt="">
+                    </div>
+                    <figcaption>
+                       24x24 VITRIFIED TILES DOUBLE CHARGED
+                        <span class="credit">Design Name:- Jupiter Beige</span>                            
+                    </figcaption>
+                </figure>
+            </li>
+            
+            </ul>    
+        <ul class="carousel__thumbnails">
+            <li>
+                <label for="slide-21"><img src="./plain/24x24 Double Charged/1.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-22"><img src="./plain/24x24 Double Charged/2.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-23"><img src="./plain/24x24 Double Charged/3.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-24"><img src="./plain/24x24 Double Charged/4.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-25"><img src="./plain/24x24 Double Charged/5.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-26"><img src="./plain/24x24 Double Charged/6.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-27"><img src="./plain/24x24 Double Charged/7.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-28"><img src="./plain/24x24 Double Charged/8.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-29"><img src="./plain/24x24 Double Charged/9.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-30"><img src="./plain/24x24 Double Charged/10.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-31"><img src="./plain/24x24 Double Charged/11.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-32"><img src="./plain/24x24 Double Charged/12.jpg" alt=""></label>
+            </li>
+            <li>
+                <label for="slide-33"><img src="./plain/24x24 Double Charged/13.jpg" alt=""></label>
+            </li>
+    
+        </ul>
+    </div>`;
+}
+
+
+else if (arg === "value12") {
+    document.getElementsByClassName(
+        "container69"
+    )[0].innerHTML = `<div class="carousel">
+    <input type="radio" name="slides" checked="checked" id="slide-11">
+    <input type="radio" name="slides" id="slide-12">
+    <input type="radio" name="slides" id="slide-13">
+    <input type="radio" name="slides" id="slide-14">
+    <input type="radio" name="slides" id="slide-15">
+    <input type="radio" name="slides" id="slide-16">
+    <input type="radio" name="slides" id="slide-17">
+    <input type="radio" name="slides" id="slide-18">
+    <ul class="carousel__slides">
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/1.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6556</span>
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/2.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6558</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/3.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6559</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/4.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6560</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/5.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6589</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/6.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6590</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/7.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6594</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        <li class="carousel__slide">
+            <figure>
+                <div>
+                    <img style = "width: fit-content;" src="./plain/24x24 sugar/8.jpg" alt="">
+                </div>
+                <figcaption>
+                    24x24 PORCELAIN TILES SUGAR FINISH
+                    <span class="credit">Design no:- 6560</span>                            
+                </figcaption>
+            </figure>
+        </li>
+        </ul>    
+    <ul class="carousel__thumbnails">
+        <li>
+            <label for="slide-11"><img style = "width: fit-content;" src="./plain/24x24 sugar/1.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-12"><img style = "width: fit-content;" src="./plain/24x24 sugar/2.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-13"><img style = "width: fit-content;" src="./plain/24x24 sugar/3.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-14"><img style = "width: fit-content;" src="./plain/24x24 sugar/4.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-15"><img style = "width: fit-content;" src="./plain/24x24 sugar/5.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-16"><img style = "width: fit-content;" src="./plain/24x24 sugar/6.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-17"><img style = "width: fit-content;" src="./plain/24x24 sugar/7.jpg" alt=""></label>
+        </li>
+        <li>
+            <label for="slide-18"><img style = "width: fit-content;" src="./plain/24x24 sugar/8.jpg" alt=""></label>
+        </li>
+    </ul>
+    </div>`}
+
 else if (arg === "value9") {
     document.getElementsByClassName(
         "container69"
