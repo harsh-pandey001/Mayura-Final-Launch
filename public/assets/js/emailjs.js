@@ -28,7 +28,7 @@ function SendMail() {
         }
         else{
       emailjs
-        .send("service_1k7jwpo", "template_xpepx5f", params)
+        .send("service_1k7jwpo", "template_pxsadoq", params)
         .then(function (res) {
           alert("Success!" + res.status);
         });
